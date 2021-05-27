@@ -9,3 +9,17 @@ public class sortArray {
 	 
  }
 }
+// descending order
+
+package newProject;
+import java.util.*;
+import java.util.Collections;
+public class sortArray {
+ public static void main(String [ ] args) {
+	 
+	 Integer arr[]={5,1,7,4,9,7,9 };
+	  Arrays.sort(arr, Collections.reverseOrder());
+	String b= Arrays.toString(arr);
+	 System.out.print(b);
+ }
+}
